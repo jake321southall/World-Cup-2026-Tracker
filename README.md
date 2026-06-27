@@ -179,5 +179,3 @@ In normal operation, deployment is automatic: every push to `main` that passes t
 ## Known limitations
 
 - Implied probabilities come from bookmaker odds, which reflect a market consensus shaped by betting volume and public sentiment — not a calibrated statistical model. A natural extension is an Elo or simulation-based model alongside the market odds.
-- The `by-run` GSI places all of one run's writes in a single partition. Fine at ~40 items every 6 hours; at high write volume the GSI partition key would be redesigned to avoid a hot partition.
-- The CI deploy role currently uses broad permissions gated by 
