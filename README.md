@@ -3,7 +3,10 @@ Repo to host a public README of my private World Cup 2026 Tracker that's hosted 
 
 # 2026 World Cup — Favourite Tracker
 
-A self-updating data pipeline that tracks which team is most likely to win the 2026 FIFA World Cup, based on bookmaker odds. The same data is served two ways — a low-latency operational store and an analytical data lake — and the whole stack (infrastructure, code, tests, deployment) is defined as code and shipped through CI/CD.
+A self-updating data pipeline that tracks which team is most likely to win the 2026 FIFA World Cup, based on bookmaker odds. The same data is served two ways: 
+- A low-latency operational store
+- An analytical data lake 
+The whole stack (infrastructure, code, tests, deployment) is defined as code and shipped through CI/CD.
 
 🔗 **Live site:** https://d1xkbbnwr650k2.cloudfront.net
 
